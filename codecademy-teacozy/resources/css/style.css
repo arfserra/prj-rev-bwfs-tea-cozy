@@ -1,0 +1,165 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+section {
+	display:flex;
+}
+
+/* Header */
+
+a {
+	color: seashell;
+}
+
+header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+
+}
+
+header img {
+	margin-left: 10px;
+	height: 50px;
+}
+
+header li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+}
+
+/* Mission */
+
+#mission {
+	margin-top: 69px;
+	height: 700px;
+	background-image: url("../images/img-mission-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	align-items: center;
+}
+
+#mission div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+}
+
+#mission h2 {
+	margin-top: 5px;
+	margin-bottom: -10px;
+}
+
+#mission h4 {
+	margin-bottom: 7px;
+}
+
+/* Featured */
+
+#featured {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 1000px;
+	flex-direction: column;
+}
+
+#featured img {
+	height: 200px;
+	width: 300px;
+}
+
+#featured h2 {
+	margin-bottom: -10px;
+}
+
+#teas {
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+
+#teas h4 {
+	margin-top: 10px;
+}
+
+.tea:last-of-type {
+	margin-left: -330px;
+}
+
+/* Locations */
+
+#locations {
+	height: 500px;
+	width: 1200px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/img-locations-background.jpg");
+	background-position-y: -55px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#addresses {
+	display: flex;
+	flex-direction: row;
+}
+
+#locations h2 {
+	margin-top: -55px;
+}
+
+.location p {
+	margin-top: 30px;
+}
+
+.location {
+	width: 300px;
+	background-color: black;
+	opacity: 1;
+	margin-left: 40px;
+}
+
+.location:first-of-type {
+	margin-left: 0px;
+}
+
+/* Contact */
+
+#contact {
+	display: block;
+	height: 200px;
+}
+
+#contact h2 {
+	margin-top: 10px;
+}
+
+
+/* Footer */
+
+footer {
+	padding-left: 20px;
+	text-align: left;
+}
